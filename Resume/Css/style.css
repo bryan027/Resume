@@ -1,0 +1,33 @@
+body{
+    /* color: #C9C9EE; */
+    background-color:#C9C9EE;
+}
+.mid{
+    color: #094074;
+}
+.container {
+    font-size: 120%;
+  color:  #82204A;;
+    /* background-color: #D16666; */
+  }
+.subtitle{
+      font-size: 4rem;
+  }
+
+@media (max-width: 500px) {
+body{
+    color:blue;
+    }
+}
+
+@media (orientaion: landscape) and (max-width: 500px){
+    .tittle{
+        color:green;
+    }
+}
+
+@media (orientaion: portrait){
+    .subtitle{
+        color:cyan;
+    }
+}
